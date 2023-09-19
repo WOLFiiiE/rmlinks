@@ -1,0 +1,38 @@
+.spinner-wrapper{
+    /* BACKGROUND
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(255 255 255 / 69%)), url(assets/211261036_169235371925267_367385757467724571_n.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;*/
+
+    background-color: gainsboro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s;
+}
+
+.spinner-border{
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(255 255 255 / 69%)), url(assets/211261036_169235371925267_367385757467724571_n.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.link-hover:hover{
+    transform: scale(102%);
+    opacity: 0.9;
+}
